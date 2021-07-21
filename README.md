@@ -11,7 +11,7 @@ Logging into the container and running` nginx -v` gives lots of useful informati
 to run :
 
 - Clone this repo
--` cd nginxexample`
+- ` cd nginxexample`
 - `./build `
 
 This will build, and deploy container locally.
