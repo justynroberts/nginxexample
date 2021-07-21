@@ -1,0 +1,5 @@
+docker rm -f ngx-tracing
+docker build -t nginx-instana .
+docker run --name ngx-tracing -p 8080:80 -d nginx-instana
+
+
