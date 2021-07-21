@@ -12,10 +12,11 @@ to run :
 
 - Clone this repo
 - ` cd nginxexample`
-- `./build `
+- `./build ` (You may have to chmod +x)
+
 
 This will build, and deploy container locally.
 
-
+Instana C++ Sensor v1.1.2 has been loaded. is a good thing to see in the logs
 
 Supplied AS is, Let me know if I can help.
