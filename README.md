@@ -10,13 +10,18 @@ Logging into the container and running` nginx -v` gives lots of useful informati
 
 to run :
 
-- Clone this repo
-- ` cd nginxexample`
-- `./build ` (You may have to chmod +x)
+Clone this repo
+ ` cd nginxexample`
+ `sudo chmod +x build`
+`./build `
 
 
-This will build, and deploy container locally.
+This will build, and deploy the ngx-tracing container locally.
 
-Instana C++ Sensor v1.1.2 has been loaded. is a good thing to see in the logs
+------------
+`docker logs ngx-tracing` should show :-
+
+Instana C++ Sensor v1.1.2 has been loaded.
+
 
 Supplied AS is, Let me know if I can help.
