@@ -1,6 +1,6 @@
 {
     "service": "nginxtracing_nginx",
-    "agent_host": "localhost",
+    "agent_host": "127.0.0.1",
     "agent_port": 42699,
     "max_buffered_spans": 1000
 }
